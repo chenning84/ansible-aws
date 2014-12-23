@@ -1,0 +1,51 @@
+
+install jdk 
+
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java8-installer
+
+============================================================
+install nodejs 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
+
+sudo apt-get update
+sudo apt-get install build-essential libssl-dev
+
+
+sudo curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+
+source ~/.profile
+
+nvm install 0.11.14
+
+node -v
+
+nvm ls 
+
+nvm alias default 0.11.14
+
+npm install -g express
+npm install -g express
+
+=====================================
+install mongodb
+
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+
+
+sudo vi  /etc/apt/sources.list.d/mongodb.list
+
+add line deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen
+
+second step on doc failed for me , had to do it manually . 
+
+
+
+Install nodejs & mongodb on EC2 
+
+http://www.murvinlai.com/nodejs--mongodb-on-aws.html
+
+
+
