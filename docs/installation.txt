@@ -34,6 +34,10 @@ install mongodb
 
 http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
 
+import data 
+
+mongoimport -d dbname -c collection_name --type csv --file Profiles_2015-01-23_15-13.csv --headerline
+
 
 sudo vi  /etc/apt/sources.list.d/mongodb.list
 
